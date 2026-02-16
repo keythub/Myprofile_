@@ -11,36 +11,36 @@ import SectionHeading from "../ui/SectionHeading.jsx";
 
 const services = [
   {
-    title: "Inbox Management",
+    title: "Inbox and Messaging",
     description:
-      "Keep your inbox organized with labels, filters, and timely responses.",
+      "Tidy inboxes, prioritize replies, and keep communication flowing.",
     icon: FiInbox,
   },
   {
-    title: "Appointment Scheduling",
-    description: "Manage calendars, confirmations, and reminders with ease.",
+    title: "Calendar Support",
+    description: "Schedule meetings, send confirmations, and manage reminders.",
     icon: FiCalendar,
   },
   {
-    title: "Social Media Assistance",
+    title: "Content Scheduling",
     description:
-      "Schedule posts, manage content calendars, and support engagement.",
+      "Plan posts, organize content ideas, and assist with scheduling.",
     icon: FiShare2,
   },
   {
-    title: "Administrative Support",
-    description:
-      "Handle documents, templates, and daily admin tasks efficiently.",
+    title: "Admin Tasks",
+    description: "Handle documents, templates, and recurring business tasks.",
     icon: FiClipboard,
   },
   {
-    title: "Online Research",
-    description: "Gather clear, organized insights to inform your next move.",
+    title: "Research and Summaries",
+    description: "Gather insights and turn them into clear, quick summaries.",
     icon: FiSearch,
   },
   {
-    title: "Data Organization",
-    description: "Clean and structure data for easy access and reporting.",
+    title: "File and Data Organization",
+    description:
+      "Organize files, clean data, and keep everything easy to find.",
     icon: FiFolder,
   },
 ];
@@ -53,7 +53,7 @@ export default function Services() {
           <SectionHeading
             eyebrow="Services"
             title="Support designed for busy founders"
-            description="Flexible, beginner-friendly services delivered with polish and care."
+            description="Not sure where to start? We will begin with a small set of priorities and refine the list as we learn your workflow."
           />
         </FadeIn>
         <div className="mt-12 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
