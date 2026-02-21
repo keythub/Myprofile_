@@ -10,6 +10,7 @@ const navItems = [
   { label: "Services", target: "services" },
   { label: "Portfolio", target: "portfolio" },
   { label: "School Projects", target: "schools" },
+  { label: "Certificates", target: "certificates" },
   { label: "Why Me", target: "why" },
   { label: "Contact", target: "contact" },
 ];
