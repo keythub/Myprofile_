@@ -9,6 +9,7 @@ const variants = {
 };
 
 export default function Button({
+  // eslint-disable-next-line no-unused-vars
   as: Component = "button",
   variant = "primary",
   className = "",
