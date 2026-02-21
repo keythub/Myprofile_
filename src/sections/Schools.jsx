@@ -4,19 +4,19 @@ import SectionHeading from "../ui/SectionHeading.jsx";
 
 const schoolProjects = [
   {
-    title: "Project Name",
-    category: "Web Design",
+    title: "Say-Less",
+    category: "WEB DESIGN | FRONT-END DEVELOPMENT",
     description:
-      "Brief description of your school project - what you built, technologies used, and key features.",
+      "Say less is a real-time chat platform built for simple and efficient communication. After logging in, users can view their active rooms, recent messages and online participants. Users are able to create new rooms or join existing ones using a short code. Conversation history is saved, allowing users to continue where they left off. Keeping the conversations organized and easy to manage. ",
     technologies: ["React", "Tailwind CSS", "JavaScript"],
     link: "#",
     image: "/projects/project1.jpg",
   },
   {
-    title: "UI Design Project",
+    title: "Enrollment Prototype",
     category: "UI Design",
     description:
-      "Description of your UI design work - tools used, design principles, and outcomes.",
+      "Designed a user interface focusing on student side of a school projects",
     technologies: ["Figma", "Web Design"],
     link: "#",
     image: "/projects/project2.jpg",
