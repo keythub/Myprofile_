@@ -1,0 +1,51 @@
+HOW TO ADD MULTIPLE IMAGES TO A PORTFOLIO ITEM
+==============================================
+
+In Portfolio.jsx, you can now add multiple images to a single portfolio item!
+
+SINGLE IMAGE (current way):
+---------------------------
+{
+  title: "My Project",
+  category: "Design",
+  description: "Project description",
+  images: ["/portfolio/image1.png"],
+  tags: ["Design", "Web"],
+}
+
+MULTIPLE IMAGES (new way):
+--------------------------
+{
+  title: "My Project",
+  category: "Design",
+  description: "Project description with multiple views",
+  images: [
+    "/portfolio/image1.png",
+    "/portfolio/image2.png",
+    "/portfolio/image3.png",
+  ],
+  tags: ["Design", "Web"],
+}
+
+WHAT THIS ADDS:
+---------------
+✓ Preview card shows "X images" badge
+✓ Click to open lightbox
+✓ Left/Right arrow buttons to navigate
+✓ Dot indicators at bottom
+✓ Image counter (1/3, 2/3, etc.)
+✓ Click dots to jump to specific image
+
+EXAMPLE - BEFORE AND AFTER:
+---------------------------
+Before (single image):
+  images: ["/portfolio/inbox-management.png"]
+
+After (multiple images):
+  images: [
+    "/portfolio/inbox-management-before.png",
+    "/portfolio/inbox-management-after.png",
+    "/portfolio/inbox-management-detail.png"
+  ]
+
+Just add the image files to the public/portfolio/ folder and list them in the images array!
