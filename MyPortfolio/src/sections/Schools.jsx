@@ -43,7 +43,7 @@ const schoolProjects = [
     technologies: ["C++", "Arduino", "Hardware Integration"],
     link: "#",
     image: "/projects/project3.jpg",
-    pdf: "/projects/Tap-N-Brew.pdf",
+    pdf: "/projects/Tap-N-Brew-Documentation.pdf",
   },
 ];
 
